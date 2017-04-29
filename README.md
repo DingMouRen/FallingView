@@ -27,7 +27,7 @@ FallingView可以实现碎片飘落效果的控件，默认的碎片是雪花图
 ```
 #### 代码中使用
 ```
-   mFallingView.setImageResource(R.drawable.img1);//设置碎片的图片
+   mFallingView.setImageResource(R.drawable.img1);//设置碎片的图片,默认的图片是雪花
    mFallingView.setDensity(progress);//设置密度，数值越大，碎片越密集,默认值是80
    mFallingView.setScale(progress);//设置碎片的大小，数值越大，碎片越小，默认值是3
    mFallingView.setDelay(progress);//设置碎片飘落的速度，数值越大，飘落的越慢，默认值是10
