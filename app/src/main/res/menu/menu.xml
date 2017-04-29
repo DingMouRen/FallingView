@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/img1"
+          android:title="落鲜花"
+          android:icon="@drawable/img1"
+          android:showAsAction="never"/>
+    <item android:id="@+id/img2"
+          android:title="落蒲公英"
+          android:icon="@drawable/img2"
+          android:showAsAction="never"/>
+    <item android:id="@+id/img3"
+          android:title="落汉堡包"
+          android:icon="@drawable/img3"
+          android:showAsAction="never"/>
+    <item android:id="@+id/img4"
+          android:title="落爱心"
+          android:icon="@drawable/img4"
+          android:showAsAction="never"/>
+</menu>
