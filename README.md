@@ -4,7 +4,7 @@
 FallingView可以实现碎片飘落效果的控件，默认的碎片是雪花图片，可以自定义碎片的图片，支持飘落的速度、碎片大小、碎片密度。Enjoy it  O(∩_∩)O<br><br>
 
 
-![image](https://github.com/DingMouRen/FallingView/raw/master/imgs/img.gif)<br><br>
+![image](https://github.com/DingMouRen/FallingView/raw/master/imgs/img.gif)     ![image2](https://github.com/DingMouRen/FallingView/raw/master/imgs/img2.gif)<br><br>
 
 ## build.gradle中引用
 ```
