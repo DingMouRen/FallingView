@@ -7,9 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.RelativeLayout;
 
 /**
@@ -106,7 +104,7 @@ public class FallingView extends RelativeLayout {
         return rawWidth;
     }
 
-    public void setImageResource(@DrawableRes int imgId){
+    public void setImageResource( int imgId){
         this.mImgId = imgId;
         initScale(mScale);
     }

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         seek_size.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                mFallingView.setScale(progress);
+                mFallingView.setScale(progress);//设置碎片的大小，数值越大，碎片越小，默认值是3
             }
 
             @Override
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         seek_density.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                mFallingView.setDensity(progress);
+                mFallingView.setDensity(progress);//设置密度，数值越大，碎片越密集
             }
 
             @Override
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         seek_v.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                mFallingView.setDelay(progress);
+                mFallingView.setDelay(progress);//设置碎片飘落的速度，数值越大，飘落的越慢，默认值是10
             }
 
             @Override
