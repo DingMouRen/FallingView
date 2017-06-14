@@ -115,7 +115,9 @@ public class FallingView extends RelativeLayout {
 
     public void setDensity(int density){
         this.mFlakesDensity = density;
-        initDenstity(mWidth,mHeight,mRawWidth);
+        if (mWidth > 0 && mHeight > 0) {
+            initDenstity(mWidth, mHeight, mRawWidth);
+        }
     }
 
     public void setDelay(int delay){

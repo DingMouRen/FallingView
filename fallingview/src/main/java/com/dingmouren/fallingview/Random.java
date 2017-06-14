@@ -1,4 +1,7 @@
 package com.dingmouren.fallingview;
+
+import android.util.Log;
+
 /**
  * Created by dingmouren on 2017/4/28.
  */

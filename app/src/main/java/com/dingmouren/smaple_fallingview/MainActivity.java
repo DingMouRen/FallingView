@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         img = (ImageView) findViewById(R.id.img);
         toolbar = (Toolbar) findViewById(R.id.toobar);
         toolbar.setTitle("FallingView");
+        mFallingView.setVisibility(View.VISIBLE);
+        mFallingView.setDensity(50);
         setSupportActionBar(toolbar);
         initListener();
         img.setImageResource(R.drawable.bg1);
