@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
         img = (ImageView) findViewById(R.id.img);
         toolbar = (Toolbar) findViewById(R.id.toobar);
         toolbar.setTitle("FallingView");
-        mFallingView.setVisibility(View.VISIBLE);
-        mFallingView.setDensity(50);
         setSupportActionBar(toolbar);
         initListener();
         img.setImageResource(R.drawable.bg1);

@@ -8,7 +8,7 @@ FallingView可以实现碎片飘落效果的控件，默认的碎片是雪花图
 
 ## build.gradle中引用
 ```
-	compile 'com.dingmouren.fallingview:fallingview:1.0.1'
+	compile 'com.dingmouren.fallingview:fallingview:1.0.2'
 ```
 
 ## 使用
